@@ -54,20 +54,60 @@ body {
     /* padding-top: 20%; */
     
 }
-.home-content h1 {
-    padding-right: 65%;
-    font-size: 25px;
-    color: rgb(11, 38, 126);
-    text-decoration: none;
-    font-weight: 600;
-}
+/* .home-content h1 {
+    /* padding-right: 65%; */ 
+    /* font-size: 56px;
+    font-weight: 700;
+    color: rgb(200, 206, 50);
+    text-decoration: none; */ 
 .home-content {
-    width: 500px;
-    border-style: solid;
-    padding: 40px;
+    max-width:550px;
+    /* border-style: solid; */
+    padding: 25px 40px;
     /* border-width: 5px; */
-    border-color: aqua;
-    border-radius: 5px;
+    /* border-color: aqua; */
+    border-radius: 20px;
+    background: #b1af33;
+}
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(217, 223, 49);
+    text-decoration: none;
+}
+.home-content h3 {
+    font-size:30px;
+    font-weight: 700;
+    color: rgb(230, 82, 65);
+    text-decoration: none;
+}
+.home-content p {
+    font-size: 16px;
+}
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    /* background: rgb(137, 137, 226); */
+    /* border-radius: 10px; */
+}
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 40px;
+    background: rgb(73, 76, 77);
+    border: 2px solid rgb(88, 210, 221);
+    border-radius: 10px;
+    color: rgb(88, 210, 221);
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
 }
 .home-picture {
     /* margin-top:40px;
@@ -99,5 +139,8 @@ body {
     height: auto;
     width: auto;
 }
-.
+.aboutparentcontainer {
 
+}
+
+}
